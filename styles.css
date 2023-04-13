@@ -36,6 +36,7 @@ button:hover{
     background-color: rgb(67, 67, 67);
     border: 2px solid black;
     transition-duration: 0.1s;
+    cursor: pointer;
 }
 
 button:active{

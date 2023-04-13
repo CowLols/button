@@ -18,6 +18,19 @@ button{
     padding: 20px;
     margin: 10px;
 }
+.welcomebtn{
+    padding: 32px;
+    background-color: #1d2029;
+    display: inline block;
+    padding: 50px;
+    font-size: 32px;
+    color: red;
+    font-weight: bolder;
+}
+.welcomebtn:hover{
+    box-shadow: 3px 4px 16px 11px rgba(255,255,255,0.75);
+
+}
 
 button:hover{
     background-color: rgb(67, 67, 67);
@@ -34,7 +47,8 @@ button:active{
 
 body{
     text-align: center;
-    color: #1d2029;
+    background-color: #1d2029;
+    
 }
 
 .main{

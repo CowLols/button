@@ -29,7 +29,6 @@ button{
 }
 .welcomebtn:hover{
     box-shadow: 3px 4px 16px 11px rgba(255,255,255,0.75);
-
 }
 
 button:hover{
@@ -63,11 +62,23 @@ a{
 }
 
 a:hover{
-    color: red;
-    transition-duration: 0.1s;
+    color: rgb(14, 15, 123);
 }
 
 a:active{
-    color: darkred;
-    transition-duration: 0.1s;
+    color: rgb(18, 4, 96);
+    font-weight: bold;
+}
+.credit{
+    font-size: 16px;
+    color: white;
+}
+.credit:hover{
+    color: rgb(219, 217, 217);
+}
+.credit:active{
+    color: rgb(125, 122, 122);
+}
+p{
+    color: white;
 }
